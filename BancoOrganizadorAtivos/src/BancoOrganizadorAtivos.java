@@ -18,13 +18,8 @@ public class BancoOrganizadorAtivos {
         }
 
         //TODO: Ordenar os ativos em ordem alfabética.
-        //exitem varias formas de ordenar listas em java, se você conhece as colections pode implementar Essa biblioteca Collections
         Collections.sort(ativos);
         //TODO: Imprimir a lista de ativos ordenada, conforme a tabela de exemplos.
-        //aqui também usei strems para imprimir a lista ordenada, se não ficou claro você pode fazer o seguinte é a mesma coisa:
-        //for (int i = 0; i < ativos.size(); i++) {
-        //System.out.println(ativos.get(i));
-       // }  
-        ativos.forEach(s -> System.out.println(s));
+       ativos.forEach(s -> System.out.println(s));
   }
 }
